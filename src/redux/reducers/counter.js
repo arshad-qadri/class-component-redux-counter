@@ -9,7 +9,9 @@ const counter = (state = 1, action) => {
       } else {
         alert("Limit exceed");
       }
+      break;
     }
+
     default:
       return state;
   }

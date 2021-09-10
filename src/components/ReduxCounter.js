@@ -1,11 +1,8 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { dec, inc } from "./redux/actions";
+import { inc, dec } from "../redux/actions";
 
 export class ReduxCounter extends Component {
-  constructor() {
-    super();
-  }
   render() {
     return (
       <>
